@@ -22,7 +22,7 @@ Use eventos de JavaScript (submit del formulario) para capturar los valores ingr
 Luego, con cálculos en JS, se actualizó dinámicamente el contenido del WebComponent mediante el método mostrarResultado().
 Todo esto ocurre en el navegador, sin necesidad de recargar la página.
 
-4. ¿De qué forma validaron las entradas de datos? Expliquen brevemente
+3. ¿De qué forma validaron las entradas de datos? Expliquen brevemente
 Implemente validaciones en el evento del formulario:
 Se verificó que los campos no estuvieran vacíos (required en los inputs).
 Se comprobó que los valores fueran mayores que cero (peso > 0, altura > 0).
@@ -31,8 +31,5 @@ Si los datos eran inválidos, el WebComponent mostraba un mensaje de advertencia
 4. ¿Cómo manejaría la escalabilidad futura en su página?
 Para escalar mi proyecto en el futuro se podría:
 Crear más WebComponents para otras funcionalidades (ej. cálculo de calorías, recomendaciones de salud).
-Separar el código en módulos (script.js, components.js, validations.js) para mantenerlo ordenado.
-
 Integrar almacenamiento local o conexión con una base de datos para guardar resultados.
 
-Usar frameworks o librerías modernas (React, Vue, Angular) si el proyecto crece mucho.
